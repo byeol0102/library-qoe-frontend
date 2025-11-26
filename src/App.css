@@ -1,0 +1,16 @@
+/* 홈페이지 전용 스타일 */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 부드러운 스크롤 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 선택 텍스트 스타일 */
+::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: white;
+}
